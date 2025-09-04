@@ -1,0 +1,19 @@
+root = true
+
+# All files
+[*]
+indent_style = space
+
+# Xml files
+[*.xml]
+indent_size = 2
+root = true
+
+# C# files
+[*.cs]
+
+dotnet_diagnostic.IDE0028.severity = none
+
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:silent
+
